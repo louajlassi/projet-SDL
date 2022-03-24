@@ -1,0 +1,6 @@
+prog:backg.o main.o		
+	gcc backg.o main.o -o prog -g								
+main.o:main.c
+	gcc -c main.c -g
+backg.o:backg.c
+	gcc -c backg.c -g
